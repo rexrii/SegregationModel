@@ -62,6 +62,7 @@ public class ModelHandler {
 
     //Print boid locations on grid
     private void printBoids(){
+        System.out.println("Printing Boids: ");
         String[][] stringMap = new String[rowNo][colNo];
 
         for(int i=0; i<rowNo; i++){
@@ -91,6 +92,4 @@ public class ModelHandler {
             System.out.printf("%5s %n", "]");
         }
     }
-
-
 }

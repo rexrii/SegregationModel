@@ -32,6 +32,7 @@ public class ModelGrid {
     }
 
     public void printGridPrices(){
+        System.out.println("Printing Prices:");
         for(int[] row : gridPrices){
             System.out.print("[");
             for(int price : row){
